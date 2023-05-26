@@ -1,0 +1,65 @@
+
+
+body {
+display: flex;
+justify-content: center;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-self: center;
+ width: 600px;
+ height: 800px;
+ text-align: center;
+ background-color: green;   
+}
+
+.shopping-list {
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+ align-self: center;
+ width: 400px;
+ height: 600px;
+ border-radius: 8px;
+ text-align: center;
+ background-color: yellow;
+ margin-bottom: 20px ;
+}
+.heading {
+font-size: 32px;
+font-weight: bold;
+    
+}
+.btn-container {
+display: flex;
+justify-content: space-evenly;
+align-self: center;
+
+width: 400px;
+
+}
+
+.userInput {
+width: 90px;
+height: 45px;
+border-radius: 6px;
+}
+
+ 
+.add-item {
+width: 100px;
+height: 50px;
+margin-right: 10px;
+font-weight: bold;
+border-radius: 6px;
+}
+
+.remove-item {
+width: 100px;
+height: 50px;
+font-weight: bold;
+border-radius: 6px;
+}
